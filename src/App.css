@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-radius: 0 0 20px 20px;
+  top: 0;
+  background-color: #fff;
+  padding: 28px 32px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+nav li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #1A35C9;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav li a span {
+  color: #1A35C9;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* --------------------- App Main ----------------- */
+
+main {
+  width: 100%;
+  position: relative;
+}
+
+.app-page-header {
+  padding-top: 200px;
+  padding: 200px 100px 0 100px;
+  width: 100%;
+  height: auto;
+  background-image: url('bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-page-header p {
+  color: #1A35C9;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #FFF;
+  width: fit-content;
+  padding: 8px 20px;
+}
+
+.app-page-header h1 {
+  color: #FFF;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.app-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.app-page-main-part-1-header-text h1 {
+  text-align: center;
+  color: #1A35C9;
+  font-size: 92px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.app-page-main-part-1-header-text h2 {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.app-page-main-part-1-body {
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.app-page-main-part-1-body .image {
+  flex: 1 1 0%;
+}
+
+.app-page-main-part-1-body .body-text {
+  flex: 1 1 0%;
+}
+
+.app-page-main-part-1-body .body-text h1 {
+  color: #1A35C9;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.app-page-main-part-1-body .body-text hr {
+  margin-top: 88px;
+  margin-bottom: 59px;
+  height: 2px;
+  stroke: #FFD0CC;
+}
+
+.app-page-main-part-1-body .body-text p {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #1A35C9;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 10px 10px 60px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #14289c;
+}
+
+.app-page-main-part-2-header-text {
+  margin-top: 100px;
+}
+
+.app-page-main-part-2-header-text h1 {
+  color: #1A35C9;
+  font-size: 92px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.app-page-main-part-2-header-text h3 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.app-page-main-part-2-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 80px auto;
+}
+
+.app-page-main-part-2-body div {
+  flex: 1 1 0%;
+}
+
+.app-page-main-part-2-body div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 50px
+}
+
+.app-page-main-part-2-body div section div {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.app-page-main-part-3-container {
+  width: 100%;
+  background-color: #FFD0CC;
+  padding: 100px;
+  border-radius: 100px 100px 0 0;
+  position: relative;
+}
+
+.app-page-main-part-3 {
+  background-color: #FFF;
+  border-radius: 20px 20px 0 0;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.app-page-main-part-3 .header-text {
+  padding-top: 50px;
+}
+
+.app-page-main-part-3 .header-text h1 {
+  color: #1A35C9;
+  font-size: 92px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.app-page-main-part-3 .header-text h3 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.app-page-main-part-3 .body-1-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 30px auto;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.app-page-main-part-3 .body-1-text section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-page-main-part-3 .body-1-text section img {
+  width: 24px;
+  height: 24px;
+}
+
+.app-page-main-part-3 .body-1-text hr {
+  background-color: #FFD0CC;
+  height: 2px;
+  outline: none;
+  border: none;
+}
+
+.app-page-main-part-3 .body-2-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.app-page-main-part-3 .body-2-text section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.app-page-main-part-3 .body-2-text section div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app-page-main-part-3 .body-2-text section img {
+  width: 100px;
+  height: auto;
+}
+
+.app-page-main-part-3 .body-2-text section div h4 {
+  color: #1A35C9;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.app-page-main-part-3 .body-2-text section div p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.app-page-main-part-3 .image-3 {
+  position: absolute;
+  z-index: 1;
+  max-width: 500px;
+  right: -50px;
+  bottom: -100px;
+}
+
+.app-page-main-part-3-container .body-3-text{
+  position: relative;
+  width: 100%;
+}
+
+.app-page-main-part-3-container .image-4{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.app-page-main-part-3-container .body-3-text h1 {
+  margin-top: 100px;
+  text-align: center;
+  color: #1A35C9;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
